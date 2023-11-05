@@ -1,0 +1,12 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./packages/3-todo/Cargo.toml",
+        "./packages/3-todo/Cargo.toml"
+    ],
+    "cSpell.words": [
+        "sqlx",
+        "struct",
+        "todos",
+        "uncomplete"
+    ]
+}
