@@ -2,12 +2,12 @@
 
 ## Description
 
-A simple game to guess a number between 1 and 1000.
+一个简单的猜数字游戏，数字范围在 1 到 1000 之间。
 
 ## Usage
 
 ```bash
-cd packages/guess-number
+cd packages/2-guess-number
 
 cargo run
 ```
