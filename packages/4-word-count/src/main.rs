@@ -1,19 +1,25 @@
-use std::io;
-use std::collections::HashMap;
-use regex::Regex;
 use colored::*;
+use regex::Regex;
+use std::collections::HashMap;
+use std::io;
 fn main() {
     println!("{}", "Please enter a sentence: ".green());
     let user_input = get_user_input();
     let word_count = get_word_count(user_input);
     for (word, count) in word_count {
-        println!("key: {}  count: {}", word.green(), count.to_string().green());
+        println!(
+            "key: {}  count: {}",
+            word.green(),
+            count.to_string().green()
+        );
     }
 }
 
 fn get_user_input() -> String {
     let mut user_input = String::new();
-    io::stdin().read_line(&mut user_input).expect("Failed to read line");
+    io::stdin()
+        .read_line(&mut user_input)
+        .expect("Failed to read line");
     user_input.trim().to_string()
 }
 

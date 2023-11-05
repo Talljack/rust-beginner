@@ -8,5 +8,6 @@
         "struct",
         "todos",
         "uncomplete"
-    ]
+    ],
+    "rust-analyzer.checkOnSave": true
 }
