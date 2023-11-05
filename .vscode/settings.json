@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./packages/guess-number/Cargo.toml"
+    ]
+}
