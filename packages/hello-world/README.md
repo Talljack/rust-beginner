@@ -8,11 +8,17 @@
 ## 运行
 
 ```bash
-$ cargo run
+cd packages/hello-world
+
+cargo run
 ```
 
 ## 编译
 
 ```bash
-$ cargo build
+cd packages/hello-world
+
+cargo build
 ```
+
+hello world 是开启 Rust 语言学习的第一步，希望这个简单的运行程序能够让你对 Rust 有一个初步的了解。

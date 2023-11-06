@@ -7,7 +7,7 @@
 ## Usage
 
 ```bash
-cd packages/4-word-count
+cd packages/word-count
 
 cargo run
 ```

@@ -7,7 +7,7 @@
 ## Usage
 
 ```bash
-cd packages/3-todo
+cd packages/todo
 
 cargo run
 ```
