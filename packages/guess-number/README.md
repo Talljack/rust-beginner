@@ -7,7 +7,7 @@
 ## Usage
 
 ```bash
-cd packages/2-guess-number
+cd packages/guess-number
 
 cargo run
 ```

@@ -4,6 +4,7 @@
         "./packages/3-todo/Cargo.toml"
     ],
     "cSpell.words": [
+        "minigrep",
         "sqlx",
         "struct",
         "todos",
