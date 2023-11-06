@@ -16,7 +16,7 @@ cargo run <query> <filename>
 
 - 使用 `std::env` crate 获取命令行参数
 - 使用 `std::fs` crate 读取文件
-- 封装 `Config` 结构体，用于存储命令行参数，以及将对应的逻辑封装到 `minigrep crate`中，进行逻辑解耦
+- 封装 `Config` 结构体，用于存储命令行参数，以及将对应的逻辑封装到 `minigrep `模块中，进行逻辑解耦
 - 使用 `Result` 类型处理错误，使用 `unwrap_or_else` 方法处理 `Result` 类型的返回值
 
 ## 使用到的 crate 包
