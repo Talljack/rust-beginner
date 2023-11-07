@@ -1,6 +1,6 @@
 # rust-beginner
-Rust demos for beginner
 
+Rust demos for beginner
 
 ## 1. Hello World
 
@@ -12,12 +12,10 @@ Rust demos for beginner
 
 ## 5. todo
 
-## 6. web server
+## 6. web server with thread pool
 
-## 7. web server with thread pool
+## 7. file operation
 
-## 8. file operation
+## 8. web application(actix-web) with database
 
-## 9. web application(actix-web) with database
-
-## 10. database operation
+## 9. database operation
