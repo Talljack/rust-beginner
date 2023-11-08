@@ -1,8 +1,4 @@
 {
-    "rust-analyzer.linkedProjects": [
-        "./packages/3-todo/Cargo.toml",
-        "./packages/3-todo/Cargo.toml"
-    ],
     "cSpell.words": [
         "minigrep",
         "sqlx",
@@ -10,5 +6,13 @@
         "todos",
         "uncomplete"
     ],
-    "rust-analyzer.checkOnSave": true
+    "rust-analyzer.checkOnSave": true,
+    "rust-analyzer.linkedProjects": [
+        "./packages/web-server/Cargo.toml",
+        "./packages/hello-world/Cargo.toml",
+        "./packages/minigrep/Cargo.toml",
+        "./packages/guess-number/Cargo.toml",
+        "./packages/todo/Cargo.toml",
+        "./packages/word-count/Cargo.toml",
+    ]
 }
