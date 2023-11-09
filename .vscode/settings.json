@@ -14,5 +14,6 @@
         "./packages/guess-number/Cargo.toml",
         "./packages/todo/Cargo.toml",
         "./packages/word-count/Cargo.toml",
+        "./packages/web-server/Cargo.toml",
     ]
 }
