@@ -2,7 +2,6 @@ use std::{
     io::{BufReader, prelude::*},
     net::{TcpListener, TcpStream},
     fs,
-    thread::{self, Thread}
 };
 mod thread_pool;
 use crate::thread_pool::ThreadPool;
@@ -22,7 +21,6 @@ fn main() {
 
 fn handle_connection(mut stream: TcpStream) {
     let  buf_reader = BufReader::new(&mut stream);
-    // let http_request = buf_reader.lines().map(|result| result.unwrap()).take_while(|line| !line.is_empty()).collect::<Vec<_>>();
     let request_line = buf_reader.lines().next().unwrap().unwrap();
     println!("Request: {:?}", request_line);
     let (status_line, file_name) = if request_line == "GET / HTTP/1.1" {
