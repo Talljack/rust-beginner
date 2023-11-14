@@ -1,5 +1,7 @@
 {
     "cSpell.words": [
+        "actix",
+        "dotenv",
         "minigrep",
         "sqlx",
         "struct",
